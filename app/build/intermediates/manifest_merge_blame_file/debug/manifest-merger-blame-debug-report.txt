@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hslxywyjw.musicplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml
+10    <!-- 设置软件安装使用权限 -->
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:5:5-7:40
+11-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:6:9-65
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:8:5-77
+12-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:8:22-74
+13
+14    <queries>
+14-->[androidx.media:media:1.3.1] C:\Users\me\.gradle\caches\transforms-3\7897a36fc2a8c338f6665c54635cdb23\transformed\media-1.3.1\AndroidManifest.xml:24:5-28:15
+15        <intent>
+15-->[androidx.media:media:1.3.1] C:\Users\me\.gradle\caches\transforms-3\7897a36fc2a8c338f6665c54635cdb23\transformed\media-1.3.1\AndroidManifest.xml:25:9-27:18
+16            <action android:name="android.media.browse.MediaBrowserService" />
+16-->[androidx.media:media:1.3.1] C:\Users\me\.gradle\caches\transforms-3\7897a36fc2a8c338f6665c54635cdb23\transformed\media-1.3.1\AndroidManifest.xml:26:13-79
+16-->[androidx.media:media:1.3.1] C:\Users\me\.gradle\caches\transforms-3\7897a36fc2a8c338f6665c54635cdb23\transformed\media-1.3.1\AndroidManifest.xml:26:21-76
+17        </intent>
+18    </queries>
+19
+20    <application
+20-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:10:5-67:19
+21        android:allowBackup="true"
+21-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:11:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] C:\Users\me\.gradle\caches\transforms-3\9df45a95e4e06a011612ef3452b5826c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:12:9-65
+24        android:debuggable="true"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:13:9-54
+26        android:icon="@mipmap/music_player_icon"
+26-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:14:9-49
+27        android:label="@string/app_name"
+27-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:15:9-41
+28        android:requestLegacyExternalStorage="true"
+28-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:16:9-52
+29        android:roundIcon="@mipmap/music_player_icon_round"
+29-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:17:9-60
+30        android:supportsRtl="true"
+30-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:18:9-35
+31        android:testOnly="true"
+32        android:theme="@style/splash_screen" >
+32-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:19:9-45
+33        <activity
+33-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:21:9-27:20
+34            android:name="com.hslxywyjw.musicplayer.AboutActivity"
+34-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:22:13-42
+35            android:exported="false" >
+35-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:23:13-37
+36            <meta-data
+36-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:24:13-26:36
+37                android:name="android.app.lib_name"
+37-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:25:17-52
+38                android:value="" />
+38-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:26:17-33
+39        </activity>
+40        <activity
+40-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:30:9-38:20
+41            android:name="com.hslxywyjw.musicplayer.FavouriteActivity"
+41-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:31:13-46
+42            android:exported="false"
+42-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:32:13-37
+43            android:screenOrientation="portrait" >
+43-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:33:13-49
+44            <meta-data
+44-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:24:13-26:36
+45                android:name="android.app.lib_name"
+45-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:25:17-52
+46                android:value="" />
+46-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:26:17-33
+47        </activity>
+48        <activity
+48-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:39:9-47:20
+49            android:name="com.hslxywyjw.musicplayer.PlayerActivity"
+49-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:40:13-43
+50            android:exported="false"
+50-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:41:13-37
+51            android:screenOrientation="portrait" >
+51-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:42:13-49
+52            <meta-data
+52-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:24:13-26:36
+53                android:name="android.app.lib_name"
+53-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:25:17-52
+54                android:value="" />
+54-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:26:17-33
+55        </activity>
+56        <activity
+56-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:48:9-62:20
+57            android:name="com.hslxywyjw.musicplayer.MainActivity"
+57-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:49:13-41
+58            android:exported="true"
+58-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:50:13-36
+59            android:screenOrientation="portrait" >
+59-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:51:13-49
+60            <intent-filter>
+60-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:53:13-57:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:54:17-69
+61-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:54:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:56:17-77
+63-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:56:27-74
+64            </intent-filter>
+65
+66            <meta-data
+66-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:24:13-26:36
+67                android:name="android.app.lib_name"
+67-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:25:17-52
+68                android:value="" />
+68-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:26:17-33
+69        </activity>
+70
+71        <service android:name="com.hslxywyjw.musicplayer.MusicService" />
+71-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:64:9-49
+71-->G:\Kotlin\MusicPlayer2-12-4\MusicPlayer2\app\src\main\AndroidManifest.xml:64:18-46
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\me\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\me\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+75            android:authorities="com.hslxywyjw.musicplayer.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\me\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\me\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\me\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\me\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\me\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\me\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\me\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\me\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+83        </provider>
+84    </application>
+85
+86</manifest>

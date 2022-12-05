@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PlayerActivity">
+    <!--顶部区域-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!--返回按钮-->
+
+
+        <!--喜欢按钮-->
+        <ImageButton
+            android:id="@+id/backBtnPA"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/back_icon"
+            app:tint="@color/black"
+            android:layout_marginEnd="270dp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/favouritesBtnPA"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/favorite_empty_icon"
+            app:tint="@android:color/holo_red_dark"
+            android:layout_marginEnd="0dp">
+
+        </ImageButton>
+    </LinearLayout>
+    <!--歌曲图片-->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/songImgPA"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="10dp"
+        android:src="@mipmap/music_player_icon_round">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+    <!--歌曲名称-->
+    <TextView
+        android:id="@+id/songNamePA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/song_name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp">
+
+    </TextView>
+    <!--按扭区域-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--上一首-->
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/previousBtnPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/previous_icon"
+            app:iconSize="30dp">
+
+        </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+        <!--暂停-->
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/playPauserBtnPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            app:icon="@drawable/pause_icon"
+            app:iconSize="40dp"
+            app:iconTint="@color/white">
+
+        </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+        <!--下一首-->
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/nextBtnPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/next_icon"
+            app:iconSize="30dp">
+
+        </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+    </LinearLayout>
+
+    <!--    进度条 区域-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <!--开始时间-->
+        <TextView
+            android:id="@+id/tvSeekBarStart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/start_tv"
+            android:textColor="@color/black"
+            android:textSize="15sp"></TextView>
+
+        <!--进度条-->
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seekBarPA"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights"></androidx.appcompat.widget.AppCompatSeekBar>
+        <!--结束时间-->
+        <TextView
+            android:id="@+id/tvSeekBarEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/end_tv"
+            android:textColor="@color/black"
+            android:textSize="15sp"></TextView>
+    </LinearLayout>
+
+    <!--    底部区域-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <!--    随机按钮    -->
+        <ImageButton
+            android:id="@+id/repeatBtnAP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/repeat_btn"
+            android:src="@drawable/repeat_icon"
+            app:tint="@color/cool_pink" />
+        <!--均衡器-->
+        <ImageButton
+            android:id="@+id/equalizerBtnPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/equalizer_btn"
+            android:src="@drawable/equalizer_icon"
+            app:tint="@color/cool_pink"
+            />
+        <!--定时器-->
+        <ImageButton
+            android:id="@+id/timerBtnPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/timer_btn"
+            android:src="@drawable/timer_icon"
+            app:tint="@color/cool_pink" />
+        <!--分享-->
+        <ImageButton
+            android:id="@+id/shareBtnPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/share_btn"
+            android:src="@drawable/share_icon"
+            app:tint="@color/cool_pink" />
+
+
+    </LinearLayout>
+</LinearLayout>
