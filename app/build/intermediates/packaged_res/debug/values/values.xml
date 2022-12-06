@@ -22,8 +22,8 @@
     <string name="exit">退出</string>
     <string name="favourites_btn">我喜欢的音乐</string>
     <string name="feeback">信息</string>
-    <string name="gitee_addr">https://gitee.com/HJKLSDF</string>
-    <string name="github_add">https://github.com/</string>
+    <string name="gitee_addr">https://gitee.com/HJKLSDF/Music_Player</string>
+    <string name="github_add">https://github.com/codepyn/Music_Player</string>
     <string name="min_15">15分钟</string>
     <string name="min_30">30分钟</string>
     <string name="min_60">60分钟</string>
@@ -31,7 +31,7 @@
     <string name="playlist_btn">playlist</string>
     <string name="playlist_delete">delete</string>
     <string name="playlist_name">playlit name</string>
-    <string name="qq">qq</string>
+    <string name="qq">1452703183</string>
     <string name="repeat_btn">Repeat</string>
     <string name="search_view">Search View</string>
     <string name="setting">设置</string>
@@ -47,7 +47,7 @@
     <string name="total_songs">歌曲总数</string>
     <string name="user_name">your name</string>
     <string name="version">v.1.0.0</string>
-    <string name="wechat">wechat</string>
+    <string name="wechat">Re-Live-I</string>
     <string name="word_of_music">word_of_music</string>
     <style name="Theme.MusicPlayer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         

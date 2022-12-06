@@ -36,9 +36,9 @@
     <string name="user_name">your name</string>
 
     <string name="version">v.1.0.0</string>
-    <string name="gitee_addr">https://gitee.com/HJKLSDF</string>
-    <string name="wechat">wechat</string>
-    <string name="qq">qq</string>
-    <string name="github_add">https://github.com/</string>
+    <string name="gitee_addr">https://gitee.com/HJKLSDF/Music_Player</string>
+    <string name="wechat">Re-Live-I</string>
+    <string name="qq">1452703183</string>
+    <string name="github_add">https://github.com/codepyn/Music_Player</string>
     <string name="team">何世龙、徐应旺、杨建武</string>
 </resources>

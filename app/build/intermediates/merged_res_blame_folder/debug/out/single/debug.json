@@ -28,32 +28,32 @@
         "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-main-30:\\drawable\\feedback_icon.xml"
     },
     {
-        "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\drawable_favorite_icon.xml.flat",
-        "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-main-30:\\drawable\\favorite_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\mipmap-xxxhdpi_music_player_icon_round.png.flat",
         "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-debug-29:\\mipmap-xxxhdpi\\music_player_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\drawable_favorite_icon.xml.flat",
+        "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-main-30:\\drawable\\favorite_icon.xml"
     },
     {
         "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\mipmap-hdpi_music_player_icon_round.png.flat",
         "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-debug-29:\\mipmap-hdpi\\music_player_icon_round.png"
     },
     {
-        "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\layout_music_view.xml.flat",
-        "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-main-30:\\layout\\music_view.xml"
-    },
-    {
         "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\drawable_search_icon.xml.flat",
         "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-main-30:\\drawable\\search_icon.xml"
     },
     {
-        "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-pngs-23:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\layout_music_view.xml.flat",
+        "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-main-30:\\layout\\music_view.xml"
     },
     {
         "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\layout_bottom_sheet_dialog.xml.flat",
         "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-main-30:\\layout\\bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-pngs-23:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\mipmap-anydpi-v26_music_player_icon.xml.flat",
@@ -102,10 +102,6 @@
     {
         "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\drawable_add_icon.xml.flat",
         "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-main-30:\\drawable\\add_icon.xml"
-    },
-    {
-        "merged": "com.hslxywyjw.musicplayer.app-merged_res-28:/drawable-v24_team_icon.png.flat",
-        "source": "com.hslxywyjw.musicplayer.app-main-30:/drawable-v24/team_icon.png"
     },
     {
         "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\drawable_exit_icon.xml.flat",
@@ -162,6 +158,10 @@
     {
         "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\mipmap-xxhdpi_music_player_icon_foreground.png.flat",
         "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-debug-29:\\mipmap-xxhdpi\\music_player_icon_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\drawable-v24_team_icon.png.flat",
+        "source": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-main-30:\\drawable-v24\\team_icon.png"
     },
     {
         "merged": "C:\\Users\\me\\.gradle\\daemon\\7.4\\com.hslxywyjw.musicplayer.app-merged_res-28:\\mipmap-xhdpi_music_player_icon.png.flat",

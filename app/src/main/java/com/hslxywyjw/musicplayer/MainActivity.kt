@@ -254,8 +254,8 @@ class MainActivity : AppCompatActivity() {
                         artUri = artUriC
                     )
                     val file = File(music.path)
-                    //在文件中是否存在
-                    if (file.exists())
+                    //在文件中是否存在,按时间过滤
+                    if (file.exists()&&music.duration>30000)
                         tempList.add(music)
                 } while (cursor.moveToNext())
                 cursor.close()

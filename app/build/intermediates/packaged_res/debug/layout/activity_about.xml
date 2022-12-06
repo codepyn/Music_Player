@@ -148,7 +148,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:gravity="center"
-            android:text="@string/github_add"
+            android:text="@string/team"
             android:textStyle="bold"></TextView>
 
 
